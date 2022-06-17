@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lightgallery.min.css" integrity="sha512-Szyqrwc8kFyWMllOpTgYCMaNNm/Kl8Fz0jJoksPZAWUqhE60VRHiLLJVcIQKi+bOMffjvrPCxtwfL+/3NPh/ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/phone.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link
+      rel="stylesheet"
+      href="../css/desktop.css"
+      media="screen and (min-width: 850px)"
+    />
+    <title>Terénní seminář | Galerie</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">
+            Terénní seminář
+        </h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="serie.html">Série</a></li>
+                <li><a href="best_of.html">Best Of</a></li>
+                <li><a href="zanrove_foto.html">Žánrové</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="box">
+        <header class="box__header">
+            <h2>Galerie</h2>
+        </header>
+        <div class="box__picture box__picture--gallery" id="gallery">
+            <figure class="pic">
+                <a href="../img/fullscreen tall/popelnice.jpg">
+                    <img src="../img/nahled tall/Popelnice.jpg" alt="Popelnice">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/strom zezdola.jpg">
+                    <img src="../img/nahled wide/Strom zezdola.jpg" alt="Strom">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen tall/kamen.jpg">
+                    <img src="../img/nahled tall/Kámen.jpg" alt="Kámen">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/kachny.jpg">
+                    <img src="../img/nahled wide/Kachny.jpg" alt="Kachny">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/prehrada cista.jpg">
+                    <img src="../img/nahled wide/přehrada čistý.jpg" alt="Přehrada">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/prehrada trava.jpg">
+                    <img src="../img/nahled wide/přehrada trava.jpg" alt="Přehrada s trávou">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen tall/dum.jpg">
+                    <img src="../img/nahled tall/Dům.jpg" alt="Dům">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/parez trava.jpg">
+                    <img src="../img/nahled wide/přehrada trava.jpg" alt="Pařez">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/parez za plotem.jpg">
+                    <img src="../img/nahled wide/pařez za plotem.jpg" alt="Pařez za plotem">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/mravenec.jpg">
+                    <img src="../img/nahled wide/mravenec.jpg" alt="Mravenec">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen tall/multipla.jpg">
+                    <img src="../img/nahled tall/Multipla.jpg" alt="Fiat Multipla">
+                </a>
+            </figure>
+            <figure class="pic">
+                <a href="../img/fullscreen wide/ruzova.jpg">
+                    <img src="../img/nahled wide/ruzova.jpg" alt="Růžový strom">
+                </a>
+            </figure>
+        </div>
+    </main>
+    <footer class="footer">
+        <h4 class="footer__title">Kontakty</h4>
+        <address class="address">
+            <p>email: adam.vrtek.020@pslib.cz</p>
+            <p>tel. číslo: +420 000 000 000</p>
+            <p>Střední průmyslová škola strojní a elektrotechnická a Vyšší odborná škola</p>
+            <p>Masarykova 3, 460 84 Liberec</p>
+        </address>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/lightgallery.min.js" integrity="sha512-+cRLP8t0rsqPalRf//6kfVwRVPzxvwtgLOm8XoSw+M/ND6/0aODP3WFs8m4EPtqsJ9aurqbYq4q/0u8lRJSldA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        lightGallery(document.getElementById('gallery'), {
+            selector: '.pic > a',
+        });
+    </script>
+</body>
+</html>

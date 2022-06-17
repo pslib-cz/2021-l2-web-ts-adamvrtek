@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lightgallery.min.css" integrity="sha512-Szyqrwc8kFyWMllOpTgYCMaNNm/Kl8Fz0jJoksPZAWUqhE60VRHiLLJVcIQKi+bOMffjvrPCxtwfL+/3NPh/ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/phone.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link
+      rel="stylesheet"
+      href="../css/desktop.css"
+      media="screen and (min-width: 850px)"
+    />
+    <title>Terénní seminář | Žánrové fotografie</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">
+            Terénní seminář
+        </h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="serie.html">Série</a></li>
+                <li><a href="best_of.html">Best Of</a></li>
+                <li><a href="zanrove_foto.html">Žánrové</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main class="box" id="genre">
+        <header class="box__header">
+            <h2>Žánrové fotografie</h2>
+        </header>
+        <div class="genrebox--big">
+            <div class="genrebox">
+                <header class="genrebox__header">
+                    <div class="genrebox__title">
+                        <h3>Časy minulé</h3>
+                    </div>
+                <div class="genrebox__text">
+                    <p>Tato fotka byla pořízena v okolí liberecké přehrady. Na fotce je vidět starý stromový domek.</p>
+                </div>
+                </header>
+                <div class="genrebox__picture">
+                    <figure class="pic">
+                        <a href="../img/fullscreen wide/Vrtek_časy_minulé (1).jpg">
+                            <img src="../img/nahled wide/Vrtek_časy_minulé (1).jpg" alt="Zchátralý stromový domek">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="genrebox">
+                <header class="genrebox__header">
+                    <div class="genrebox__title">
+                        <h3>Společnými silami</h3>
+                    </div>
+                <div class="genrebox__text">
+                    <p>Na téhle fotce je vidět dopravní značka "Práce na silnici. Značku někdo vyndal ze stojanu a opřel ji o kamennou zeď.</p>
+                </div>
+                </header>
+                <div class="genrebox__picture">
+                    <figure class="pic">
+                        <a href="../img/fullscreen wide/Vrtek_společnými_silami (1).jpg">
+                            <img src="../img/nahled wide/Vrtek_společnými_silami (1).jpg" alt="Dopravní značka práce na silnici vyrvaná ze země">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="genrebox">
+                <header class="genrebox__header">
+                    <div class="genrebox__title">
+                        <h3>Svět bez barev</h3>
+                    </div>
+                <div class="genrebox__text">
+                    <p>Tahle fotka byla pořízena na území Technické univerzity Liberec. Je to vývod ventilace nebo nějakého větraní vyfocen hodně zblízka.</p>
+                </div>
+                </header>
+               <div class="genrebox__picture">
+                    <figure class="pic">
+                        <a href="../img/fullscreen wide/Vrtek_svět_bez_barev (1).jpg">
+                            <img src="../img/nahled wide/Vrtek_svět_bez_barev (1).jpg" alt="Ventilace zblízka">
+                        </a>
+                    </figure>
+               </div>
+            </div>
+        </div>
+   </main>
+   <footer class="footer">
+    <h4 class="footer__title">Kontakty</h4>
+    <address class="address">
+        <p>email: adam.vrtek.020@pslib.cz</p>
+        <p>tel. číslo: +420 000 000 000</p>
+        <p>Střední průmyslová škola strojní a elektrotechnická a Vyšší odborná škola</p>
+        <p>Masarykova 3, 460 84 Liberec</p>
+    </address>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/lightgallery.min.js" integrity="sha512-+cRLP8t0rsqPalRf//6kfVwRVPzxvwtgLOm8XoSw+M/ND6/0aODP3WFs8m4EPtqsJ9aurqbYq4q/0u8lRJSldA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        lightGallery(document.getElementById('genre'), {
+             selector: '.pic > a',
+        });
+    </script>
+</body>
+</html>
